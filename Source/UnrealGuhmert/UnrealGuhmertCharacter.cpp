@@ -60,7 +60,6 @@ AUnrealGuhmertCharacter::AUnrealGuhmertCharacter()
 void AUnrealGuhmertCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
-
 	if (CursorToWorld != nullptr)
 	{
 		if (UHeadMountedDisplayFunctionLibrary::IsHeadMountedDisplayEnabled())

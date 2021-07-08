@@ -46,6 +46,8 @@ void AUnrealGuhmertPlayerController::OnResetVR()
 
 void AUnrealGuhmertPlayerController::MoveToMouseCursor()
 {
+	FString hi("Hellooo22342342323");
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Green, hi);
 	if (UHeadMountedDisplayFunctionLibrary::IsHeadMountedDisplayEnabled())
 	{
 		if (AUnrealGuhmertCharacter* MyPawn = Cast<AUnrealGuhmertCharacter>(GetPawn()))
